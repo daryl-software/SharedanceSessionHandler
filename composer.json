@@ -1,0 +1,21 @@
+{
+    "name": "prelinker/sharedance",
+    "description": "Store your sessions with shareadanced",
+    "keywords": ["session", "sharedance"],
+    "homepage": "http://github.com/prelinker/SharedanceSessionHandler",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laurent Goussard",
+            "email": "laurent.goussard@prelinker.com",
+            "homepage": "http://www.prelinker.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {"Sharedance": "src/"}
+    }
+}

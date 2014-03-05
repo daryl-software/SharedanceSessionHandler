@@ -31,6 +31,9 @@ class SessionHandler implements \SessionHandlerInterface
         return true;
     }
 
+    /**
+     * @param string $command
+     */
     private function send($command)
     {
         if ( !$this->connect() || !$res = fwrite( $this->socket, $command ) ) {
